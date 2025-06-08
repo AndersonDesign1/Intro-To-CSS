@@ -1,0 +1,30 @@
+/*This is a comment
+I am showing how comments works and their purpose
+*/
+
+/* This code below shows how css specificity works. 
+you can see that it will choose darkblue just because
+ of the hierarchy */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: chocolate;
+}
+
+.heading {
+    color: crimson;
+}
+
+#main {
+    color: darkblue;
+}
+
+.paragraph{
+    color: darkgreen;
+}
